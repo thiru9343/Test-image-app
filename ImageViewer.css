@@ -1,0 +1,31 @@
+.image-container{
+    padding: 0 50px;
+    width: 100%;
+    position: fixed;
+    /* display: flex; */
+}
+.image-wrapper{
+    display: flex;
+}
+.image-container .image-list{
+        width: 300px;
+        overflow-y: auto;
+        display: inline-block;
+        height: 500px;
+    }
+
+    .image-container .image-list img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .image-selection{
+        display: inline-block;
+        margin-left: 50px;
+    }
+
+    .image-selection img{
+        width: 500px;
+        display: block;
+        /* float: right; */
+    }
